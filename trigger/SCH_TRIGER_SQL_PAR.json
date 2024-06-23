@@ -1,0 +1,24 @@
+{
+	"name": "SCH_TRIGER_SQL_PAR",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "PL_SQL_PAR",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Day",
+				"interval": 1,
+				"startTime": "2024-06-23T03:37:00",
+				"timeZone": "Eastern Standard Time"
+			}
+		}
+	}
+}
