@@ -1,0 +1,19 @@
+{
+	"name": "DS_parquet667",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeStorage7_manualpar",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileSystem": "payment"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	}
+}
